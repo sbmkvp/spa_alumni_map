@@ -1,0 +1,148 @@
+-- phpMyAdmin SQL Dump
+-- version 2.11.4
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: May 19, 2014 at 06:14 AM
+-- Server version: 5.1.57
+-- PHP Version: 5.2.17
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `a7633930_hdtest`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `mem`
+--
+
+CREATE TABLE `mem` (
+  `name` text NOT NULL,
+  `loc` text NOT NULL,
+  `lat` float NOT NULL,
+  `lon` float NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `mem`
+--
+
+INSERT INTO `mem` VALUES('Bala Murugan', 'London, UK', 51.5263, -0.103345);
+INSERT INTO `mem` VALUES('PRANAY J', 'Indore', 22.7212, 75.87);
+INSERT INTO `mem` VALUES('Nishant Gupta', 'Indore, India', 22.7243, 75.8662);
+INSERT INTO `mem` VALUES('Sunita Lakra', 'Oxford, UK', 51.7583, -1.2508);
+INSERT INTO `mem` VALUES('Aashrya Soni', 'Delhi, India', 28.6365, 77.236);
+INSERT INTO `mem` VALUES('Shaheen Hameed', 'Nottingham, UK', 52.963, -1.13902);
+INSERT INTO `mem` VALUES('Aditya Ajith', 'New Delhi, India', 28.6389, 77.2369);
+INSERT INTO `mem` VALUES('Mitava Chaturvedi', 'Enchede, Netherlands', 52.2216, 6.8959);
+INSERT INTO `mem` VALUES('Rituparna Simlai', 'Boston, USA', 42.3639, -71.0579);
+INSERT INTO `mem` VALUES('Digant Sonwane', 'Chennai, India', 13.0535, 80.2558);
+INSERT INTO `mem` VALUES('Narotham Medi', 'Hyderabad, India', 17.391, 78.4957);
+INSERT INTO `mem` VALUES('Gaurav Dubey', 'NewCastle, UK', 54.979, -1.60351);
+INSERT INTO `mem` VALUES('Animesh Behra', 'Bhubaneshwar, India', 20.2963, 85.8418);
+INSERT INTO `mem` VALUES('Sheena Pandita', 'Bath, UK', 51.3941, -2.3597);
+INSERT INTO `mem` VALUES('Abhishek Jain', 'Houston, USA', 29.7617, -95.3626);
+INSERT INTO `mem` VALUES('Archana Menthula', 'Delhi, India', 28.6543, 77.241);
+INSERT INTO `mem` VALUES('Mohit Agrawal', 'Libreville, India', 0.40602, 9.4688);
+INSERT INTO `mem` VALUES('Prabhat R Mahato', 'Ahmedabad ', 23.0548, 72.576);
+INSERT INTO `mem` VALUES('Akshay Kulkarni', 'Mumbai, India', 19.0912, 72.8929);
+INSERT INTO `mem` VALUES('mayank poddar', 'patna,india', 25.6182, 85.1524);
+INSERT INTO `mem` VALUES('Vaishali Nanda', 'Gurgaon, India', 28.4617, 77.035);
+INSERT INTO `mem` VALUES('Vaishali Nanda', 'Port Blair', 11.6329, 92.7405);
+INSERT INTO `mem` VALUES('Eldo Alias', 'Ahmedabad,India', 23.0581, 72.5831);
+INSERT INTO `mem` VALUES('Kushal Lachhwani', 'Bangkok, Thailand', 13.7375, 100.533);
+INSERT INTO `mem` VALUES('HONEY JALALI ', 'Delhi,India', 28.6543, 77.233);
+INSERT INTO `mem` VALUES('Smanla Dorje Nurboo', 'Leh, Ladakh', 34.1362, 77.4838);
+INSERT INTO `mem` VALUES('Vaibhav Jain', 'Gurgaon', 28.4728, 77.034);
+INSERT INTO `mem` VALUES('Karthikeya Rajput', 'London, UK', 51.5173, -0.104597);
+INSERT INTO `mem` VALUES('Arnab Roy', 'Indore, India', 22.7361, 75.8736);
+INSERT INTO `mem` VALUES('Surya Bhattacharya', 'Milan, Italy', 45.473, 9.1932);
+INSERT INTO `mem` VALUES('Shamit Manchanda', 'Delhi, India', 28.6355, 77.2283);
+INSERT INTO `mem` VALUES('Nupur Dube Vibhuti', 'Delhi, India', 28.6506, 77.2371);
+INSERT INTO `mem` VALUES('Sarbani Choudhuri', 'Bangalore', 12.9821, 77.6109);
+INSERT INTO `mem` VALUES('Manohar Kumar Boddeti', 'Mumbai,India', 19.0951, 72.8969);
+INSERT INTO `mem` VALUES('Abhimanyu Singhal', 'New Delhi', 28.643, 77.2412);
+INSERT INTO `mem` VALUES('pratyusha', 'Hyderabad india', 17.387, 78.5004);
+INSERT INTO `mem` VALUES('Arastu Gupta', 'New Delhi', 28.6445, 77.2337);
+INSERT INTO `mem` VALUES('Vikash Kumar Anand', 'New Delhi, India ', 28.6482, 77.2345);
+INSERT INTO `mem` VALUES('rajeshkumar', 'dubai', 25.2792, 55.3225);
+INSERT INTO `mem` VALUES('Sonali', 'New Delhi, India', 28.6514, 77.2362);
+INSERT INTO `mem` VALUES('Sonali Barwar', 'Delhi,India', 28.6517, 77.2437);
+INSERT INTO `mem` VALUES('Prateek Shankar', 'Delhi', 28.6364, 77.226);
+INSERT INTO `mem` VALUES('shankar', 'chennai, india', 13.0653, 80.2585);
+INSERT INTO `mem` VALUES('vishnu khare', 'khandwa india', 21.8363, 76.3659);
+INSERT INTO `mem` VALUES('GH', 'Kingston, Jamaica', 18.0093, -76.7875);
+INSERT INTO `mem` VALUES('Nishita Mohta', 'Delhi, India', 28.6515, 77.2276);
+INSERT INTO `mem` VALUES('Shijo Jose', 'Cochin, India', 9.94235, 76.2741);
+INSERT INTO `mem` VALUES('Protyasha', 'Hyderabad', 17.4029, 78.491);
+INSERT INTO `mem` VALUES('shweta sharma', 'new delhi', 28.645, 77.233);
+INSERT INTO `mem` VALUES('Deepak Srivastav', 'Dublin', 53.3697, -6.24604);
+INSERT INTO `mem` VALUES('Aditya Awari Patil', 'Nagpur, India', 21.1486, 79.1052);
+INSERT INTO `mem` VALUES('himanshu', 'yamunagar', 30.1375, 77.2886);
+INSERT INTO `mem` VALUES('Syed Hamdan Hussain', 'Delhi, India', 28.648, 77.2315);
+INSERT INTO `mem` VALUES('Narotham Medi', 'New Delhi', 28.6394, 77.2273);
+INSERT INTO `mem` VALUES('ankur', 'zirakpur', 30.6497, 76.8227);
+INSERT INTO `mem` VALUES('Bala Murugan', 'Kovilpatti', 9.19095, 77.8842);
+INSERT INTO `mem` VALUES('Manik Gupta', 'Bangalore', 12.9859, 77.6015);
+INSERT INTO `mem` VALUES('Manik Gupta', 'New Delhi', 28.6446, 77.2319);
+INSERT INTO `mem` VALUES('Sooraz Patro', 'Phoenix, Arizona', 33.4659, -112.07);
+INSERT INTO `mem` VALUES('Aditya Ajith', 'Delhi,India', 28.636, 77.2359);
+INSERT INTO `mem` VALUES('hatharki brahma', 'kokrajhar', 26.4131, 90.2729);
+INSERT INTO `mem` VALUES('Aneesh Nandi', 'Gurgaon', 28.4794, 77.0465);
+INSERT INTO `mem` VALUES('Akhil K. Tiwari', 'Delhi', 28.6364, 77.2313);
+INSERT INTO `mem` VALUES('Akshya Singhvi', 'Udaipur, India', 24.5777, 73.7057);
+INSERT INTO `mem` VALUES('priyesh dubey', 'delhi', 28.6534, 77.2263);
+INSERT INTO `mem` VALUES('Tanya Dwivedi', 'Delhi', 28.645, 77.2442);
+INSERT INTO `mem` VALUES('Amit Kumar', 'Delhi', 28.64, 77.2308);
+INSERT INTO `mem` VALUES('Shubham Kesharwani', 'bhopal, india', 23.2782, 77.4303);
+INSERT INTO `mem` VALUES('Prayash Giria', 'London, UK', 51.5131, -0.107163);
+INSERT INTO `mem` VALUES('Shubam Koul', 'Noida, India', 28.5465, 77.4042);
+INSERT INTO `mem` VALUES('Hemant Kumar', 'Farnham, UK', 51.2144, -0.780235);
+INSERT INTO `mem` VALUES('Tania Kaushal', 'Neuchatel', 47.0107, 6.94321);
+INSERT INTO `mem` VALUES('Shoma Mathew', 'London, UK', 51.5218, -0.117106);
+INSERT INTO `mem` VALUES('ojaswini singh', 'hyderabad', 17.3925, 78.4887);
+INSERT INTO `mem` VALUES('Himanshu', 'Valdivia, Chile', -39.807, -73.2447);
+INSERT INTO `mem` VALUES('Pooja Rao', 'Bangalore', 12.9799, 77.6016);
+INSERT INTO `mem` VALUES('Sahil Sasidharan', 'Delhi', 28.6452, 77.2402);
+INSERT INTO `mem` VALUES('Pooja Rao', 'Manipal', 13.3648, 74.8061);
+INSERT INTO `mem` VALUES('Kuldeep', 'Noida', 28.5546, 77.4074);
+INSERT INTO `mem` VALUES('Pranav Singh', 'Delhi', 28.6479, 77.233);
+INSERT INTO `mem` VALUES('Hemant Chhabra', 'Gandhinagar, Gujarat, India', 23.2267, 72.6602);
+INSERT INTO `mem` VALUES('aditi arya', 'siliguri', 26.7226, 88.4458);
+INSERT INTO `mem` VALUES('Senjuti Manna', 'Reading, United Kingdom', 51.4681, -0.967221);
+INSERT INTO `mem` VALUES('Amit Singh Rauthan', 'New Delhi, India', 28.6439, 77.2374);
+INSERT INTO `mem` VALUES('Tryambakesh Shukla', 'Trondheim, Norway', 63.4337, 10.4045);
+INSERT INTO `mem` VALUES('Suman Kumar', 'Roorkee', 29.8545, 77.9071);
+INSERT INTO `mem` VALUES('vikas sharma', 'delhi, india', 28.6471, 77.2303);
+INSERT INTO `mem` VALUES('Tathabrata Bhattacharya', 'gangtok', 27.3468, 88.6257);
+INSERT INTO `mem` VALUES('Ankita Mandal', '''delhi,india''', 28.647, 77.2279);
+INSERT INTO `mem` VALUES('Tanushri Swarup', 'Mumbai', 19.0877, 72.88);
+INSERT INTO `mem` VALUES('Namita Gyanchandani', 'Wollongong, Australia', -34.4099, 150.893);
+INSERT INTO `mem` VALUES('Chitresh', 'jamshedpur', 22.8115, 86.214);
+INSERT INTO `mem` VALUES('Trilok Sharma', 'London, UK', 51.5171, -0.110465);
+INSERT INTO `mem` VALUES('Aneesha Alex', 'London, UK', 51.5295, -0.110119);
+INSERT INTO `mem` VALUES('Nishant Gautam', 'Delhi, India', 28.6464, 77.2286);
+INSERT INTO `mem` VALUES('Kritika Dhanda', 'New Delhi, India', 28.637, 77.2446);
+INSERT INTO `mem` VALUES('Prateek Singh', 'New Delhi, India', 28.6528, 77.2432);
+INSERT INTO `mem` VALUES('Garfield Hunter', 'Shanghai, China', 31.2321, 121.488);
+INSERT INTO `mem` VALUES('Akanksha Raina', 'Cambridge, USA', 42.3739, -71.0898);
+INSERT INTO `mem` VALUES('ARTIKA AGGARWAL', 'delhi, india', 28.6468, 77.2327);
+INSERT INTO `mem` VALUES('Prithvi Hegde', 'Delhi, India', 28.6461, 77.2407);
+INSERT INTO `mem` VALUES('Rahul', 'Delhi', 28.6549, 77.2449);
+INSERT INTO `mem` VALUES('Suranjana Saikia', 'Hanau, Germany', 50.1311, 8.93731);
+INSERT INTO `mem` VALUES('Nitin Azad', 'Delhi', 28.6506, 77.2333);
+INSERT INTO `mem` VALUES('Rohit Singh', 'Gurgaon, India', 28.4652, 77.0319);
+INSERT INTO `mem` VALUES('Santosh Singh', 'Jaipur', 26.9318, 75.8032);
+INSERT INTO `mem` VALUES('Manish Chauhan', 'Gurgaon', 28.4635, 77.0415);
+INSERT INTO `mem` VALUES('REDDY SRINIVAS', 'BENGALORE', 12.989, 77.6038);
+INSERT INTO `mem` VALUES('Sneha Kathi', 'London', 51.5122, -0.099942);
+INSERT INTO `mem` VALUES('Abinaya K', 'Delhi, India', 28.636, 77.2331);
+INSERT INTO `mem` VALUES('Gaurav Gupta ', 'Singapore ', 1.35605, 103.821);
+INSERT INTO `mem` VALUES('Kabilan', 'Colombo', 6.9442, 79.8651);
+INSERT INTO `mem` VALUES('Siddharth Suri', 'Singapore', 1.36223, 103.838);
+INSERT INTO `mem` VALUES('Geetika Anand', 'London, UK', 51.5187, -0.117454);
+INSERT INTO `mem` VALUES('Sivakumar', 'Aarhus', 56.1699, 10.2153);
+INSERT INTO `mem` VALUES('Siddharth Achaya', 'Bangalore', 12.9898, 77.6047);

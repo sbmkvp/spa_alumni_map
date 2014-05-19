@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>SMAP-Alpha</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link type="text/css" href="style.css?v=2" rel="stylesheet" media="all"/>
+		<script type="text/JavaScript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=visualization"></script>
+		<script type="text/javascript">var script = '<script type="text/javascript" src="markerclusterer'; if (document.location.search.indexOf('compiled') !== -1) { script += '_compiled'; } script += '.js"><' + '/script>'; document.write(script); </script>
+		<script type="text/JavaScript" src="jquery-2.0.3.min.js"></script>
+		<script type="text/JavaScript" src="map-style.js"></script>
+	</head>
+	<body>
+		<div id="map"></div>
+		<script type="text/javascript" src="map.js"></script>
+		<div id="add">
+			<input id="name" type="text" placeholder="Name ('First Last')"></input>
+			<input id="loc" type="text" placeholder="City (eg. 'Delhi,India')"></input>
+			<input id="submit" type="button" onClick="post();" value="Submit"></input>
+		</div>
+<div id="counter">
+<div id="num"></div>
+<div style="font-size:20px;font-weight:100;">people in the map</div>
+</div>
+	</body>
+</html>

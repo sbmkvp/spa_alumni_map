@@ -1,0 +1,83 @@
+body {
+	border-style:none;
+	margin:0;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#map {
+	position: absolute;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background: #FFF;
+	border: 0px solid #FFF;
+}
+
+#add {
+	position: absolute;
+	float: right;
+	top: 5px;
+	right: 5px;
+	width: 200px;
+	height: 130px;
+	border: 0px solid #000;
+        background: #000;
+	opacity: 0.8;
+}
+
+#name {
+	position: absolute;
+	left: 10px;
+	top:10px;
+	width: 180px;
+	height: 30px;
+	background: #DDD;
+	border: 1px solid #333;
+}
+
+#loc {
+	position: absolute;
+	top:50px;
+	left: 10px;
+	width: 180px;
+	height: 30px;
+	background: #DDD;
+	border: 1px solid #333;
+}
+
+#submit {
+	position: absolute;
+	top:90px;
+	left: 10px;
+	width: 180px;
+	height: 30px;
+}
+
+#counter{
+	position: absolute;
+	float: right;
+	bottom: 50px;
+	right: 15px;
+	width: 200px;
+	height: 110px;
+        font-size:100px;
+        color: #B40404;
+        text-align:right;
+        font-weight:700;
+        margin:0;
+        padding:0;
+        font-family: 'Roboto', sans-serif;
+}
+
+#num {
+        height:110px;
+}
+
+A:link {text-decoration: none;color:#555}
+A:visited {text-decoration: none;color:#555}
+A:active {text-decoration: none;color:#555}
+A:hover {text-decoration: none;color:#555}	
